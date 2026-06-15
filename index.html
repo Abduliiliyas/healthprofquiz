@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Privacy Policy | HealthProf</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: #f5f7fb;
+      color: #1e2a3a;
+      line-height: 1.5;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 880px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 28px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.05);
+      overflow: hidden;
+      padding: 32px 28px;
+    }
+
+    /* header area */
+    .header {
+      text-align: center;
+      margin-bottom: 32px;
+      border-bottom: 1px solid #e9edf2;
+      padding-bottom: 20px;
+    }
+
+    .logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: #007AFF10;
+      padding: 8px 20px;
+      border-radius: 60px;
+      margin-bottom: 18px;
+    }
+
+    .logo span {
+      font-weight: 700;
+      font-size: 1.4rem;
+      color: #007AFF;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.3px;
+      color: #0b2b3b;
+      margin-bottom: 8px;
+    }
+
+    .last-updated {
+      color: #5e6f8d;
+      font-size: 0.85rem;
+      margin-top: 6px;
+    }
+
+    /* sections */
+    section {
+      margin-bottom: 32px;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #0f2c3e;
+      margin-bottom: 14px;
+      border-left: 4px solid #007AFF;
+      padding-left: 16px;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin: 20px 0 10px 0;
+      color: #1f3b4c;
+    }
+
+    p {
+      margin-bottom: 16px;
+      color: #2d3e50;
+    }
+
+    ul, ol {
+      margin: 12px 0 16px 28px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #2d3e50;
+    }
+
+    .badge {
+      background: #eef3fc;
+      border-radius: 20px;
+      padding: 12px 18px;
+      font-size: 0.9rem;
+      margin: 20px 0;
+      border-left: 3px solid #007AFF;
+    }
+
+    hr {
+      margin: 28px 0;
+      border: none;
+      height: 1px;
+      background: #e2e8f0;
+    }
+
+    .footer-note {
+      text-align: center;
+      margin-top: 32px;
+      padding-top: 20px;
+      border-top: 1px solid #e9edf2;
+      font-size: 0.8rem;
+      color: #6c7a91;
+    }
+
+    a {
+      color: #007AFF;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 24px 18px;
+      }
+      h1 {
+        font-size: 1.65rem;
+      }
+      h2 {
+        font-size: 1.3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">
+      <span>📘 HealthProf</span>
+    </div>
+    <h1>Privacy Policy</h1>
+    <div class="last-updated">Effective date: June 15, 2026 | Last revised: June 15, 2026</div>
+  </div>
+
+  <section>
+    <p>Welcome to <strong>HealthProf</strong> – your trusted companion for medical and health‑related quizzes. Your privacy is critically important to us. This policy explains what information we collect, how we use it, and the choices you have.</p>
+    <div class="badge">
+      ✅ <strong>No account required</strong> – you can use the app without creating a permanent profile. We respect your anonymity.
+    </div>
+  </section>
+
+  <section>
+    <h2>1. Information we collect</h2>
+    <p>We collect minimal information to provide and improve the quiz experience:</p>
+    <ul>
+      <li><strong>Department (optional):</strong> If you provide your department (e.g., Nursing, Radiology) during the initial setup, we use it only to filter quizzes relevant to your field. This value is stored locally on your device and never uploaded to our servers unless you explicitly fetch quizzes.</li>
+      <li><strong>Name & school (voluntary):</strong> Before starting a quiz, you may enter your name and school. This data stays <strong>only on your device</strong> (via AsyncStorage / SQLite) and is never transmitted to us. It is used to personalise your certificate or result screen.</li>
+      <li><strong>Quiz progress & answers:</strong> Your responses are stored locally to allow offline review and results. None of your answers are automatically sent to any external server unless you choose to share them (we do not collect quiz answers).</li>
+      <li><strong>Device information (anonymous):</strong> Standard diagnostic data (e.g., app version, platform, network status) may be used internally to fix bugs – we do not sell or share this data with third parties for marketing.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>2. How we use your data</h2>
+    <ul>
+      <li>To display quizzes filtered by your department (if selected).</li>
+      <li>To save quizzes offline so you can take them without internet connection.</li>
+      <li>To remember your name on the result screen (stored locally).</li>
+      <li>To improve app performance, fix errors, and understand usage patterns (aggregated).</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>3. Local storage & offline functionality</h2>
+    <p>HealthProf is built to work offline. All quiz data, your answers, and your preferences are stored <strong>exclusively on your device</strong> using:</p>
+    <ul>
+      <li><strong>AsyncStorage</strong> – for user preferences, name, school, and active quiz session.</li>
+      <li><strong>SQLite / IndexedDB</strong> – for full quiz content (questions, options, time limits).</li>
+    </ul>
+    <p>We do <strong>not</strong> have cloud access to your local database. If you uninstall the app, the stored data is removed from your device.</p>
+  </section>
+
+  <section>
+    <h2>4. Internet & external services</h2>
+    <p>When you are online, the app may:</p>
+    <ul>
+      <li>Fetch the latest quizzes from our API endpoint: <code>https://healthprof.com.ng/quizzes/</code> (department‑filtered).</li>
+      <li>Show advertisements via <strong>AdBanner</strong> and <strong>InterstitialAdComponent</strong> to keep the app free. Ads are provided by third‑party networks (e.g., Google AdMob). Those networks may collect device identifiers for ad personalisation – you can opt out via your device settings (e.g., “Reset Advertising ID” or limit ad tracking).</li>
+    </ul>
+    <p>We do not control the privacy practices of ad providers. Please refer to Google's privacy policy for more details.</p>
+    <div class="badge">
+      🔒 <strong>No third‑party analytics</strong> – we currently do not embed Google Analytics, Firebase Analytics, or any tracking SDK beyond basic ad serving.
+    </div>
+  </section>
+
+  <section>
+    <h2>5. Data deletion & control</h2>
+    <p>You can delete all local data at any time:</p>
+    <ul>
+      <li><strong>Clear app data:</strong> On Android/iOS, go to Settings → Apps → HealthProf → Clear Storage / Delete App Data. This removes all quizzes, answers, and preferences.</li>
+      <li><strong>Uninstall the app:</strong> Completely removes every file stored by HealthProf.</li>
+    </ul>
+    <p>If you have questions or request manual deletion (for any residual server logs), contact us at <a href="mailto:privacy@healthprof.com.ng">privacy@healthprof.com.ng</a>.</p>
+  </section>
+
+  <section>
+    <h2>6. Children’s privacy</h2>
+    <p>HealthProf is intended for health professional students and practitioners. It does not knowingly collect personal information from children under 13. If you believe a child has provided data, please contact us, and we will remove it.</p>
+  </section>
+
+  <section>
+    <h2>7. Changes to this policy</h2>
+    <p>We may update this privacy policy from time to time. The “Effective date” at the top will reflect the latest changes. Continued use of the app after modifications constitutes acceptance of the updated policy.</p>
+  </section>
+
+  <section>
+    <h2>8. Contact us</h2>
+    <p>If you have any concerns, suggestions, or data‑related requests, please reach out:</p>
+    <p>📧 Email: <a href="mailto:support@healthprof.com.ng">support@healthprof.com.ng</a><br>
+    🌐 Website: <a href="https://healthprof.com.ng" target="_blank">https://healthprof.com.ng</a></p>
+  </section>
+
+  <hr>
+
+  <div class="footer-note">
+    © 2026 HealthProf — Empowering healthcare education through smart quizzes.
+  </div>
+</div>
+</body>
+</html>
